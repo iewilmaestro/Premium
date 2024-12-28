@@ -1,5 +1,7 @@
 <?php
 
+const class_version = "0.0.1";
+
 // Warna teks
 const n = "\n";          // Baris baru
 const d = "\033[0m";     // Reset
