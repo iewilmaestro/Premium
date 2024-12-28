@@ -1,3 +1,5 @@
+<?php
+
 // Warna teks
 const n = "\n";          // Baris baru
 const d = "\033[0m";     // Reset
