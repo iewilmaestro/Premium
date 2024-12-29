@@ -248,7 +248,7 @@ class License{
 		return $unique;
 	}
 	private function CheckLicense($originalLicense, $licenseMD5){
-		$url = 'https://api-iewil.my.id/License/index.php';
+		$url = 'https://iewilbot.my.id/Premium/License/index.php';
 		$data = array(
 			'license' => $licenseMD5
 		);
