@@ -188,7 +188,11 @@ class PERTAMAX {
 			sleep(2);
 			print "\r                                   \r";
 		}
-		if(!$r)print "captcha cannot be solve\n";
+		if(!$r){
+			print substr("captcha cannot be solve");
+			sleep(2);
+			print "\r                                   \r";
+		}
 	}
 	public function IconCoordiant($base64Img){
 		$postParameter = http_build_query([
